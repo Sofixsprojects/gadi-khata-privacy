@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172B4D">
+  <title>Privacy Policy — Gadi Khata</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px 60px; line-height: 1.65; color: #202124; }
+    h1 { font-size: 30px; margin-bottom: 4px; }
+    h2 { font-size: 20px; margin-top: 30px; }
+    .meta { color: #5f6368; font-size: 14px; margin-top: 0; }
+    .lede { background: #f5f7fa; border-left: 4px solid #172B4D; padding: 14px 18px; border-radius: 6px; }
+    a { color: #1a73e8; }
+    code { background: #f1f3f4; padding: 2px 5px; border-radius: 4px; }
+    footer { margin-top: 36px; color: #5f6368; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="meta">App: Gadi Khata &middot; Package: <code>com.gadikhata.app</code> &middot; Developer: Sofixs Private Limited &middot; Effective date: November 26, 2026</p>
+
+  <p class="lede">Gadi Khata is an offline-first vehicle accounting and GPS duty-tracking app for fleet owners and drivers. This policy explains what information the app handles, why it handles it, and what choices you have.</p>
+
+  <h2>Information you provide</h2>
+  <p>If cloud sign-in is enabled for your organization, you create an account with a username (email address or phone number) and password. You also enter vehicle, driver, trip, fuel, expense, cash handover, settlement, salary, and report information. If cloud sign-in is not configured, the app still works locally on your device and no online account is created.</p>
+
+  <h2>Location information</h2>
+  <p>When a driver starts duty tracking, Gadi Khata records GPS locations so the vehicle route, automatic daily movement summaries, and hourly owner snapshots can be produced. The app requests foreground and background location permission only for this driver-initiated duty workflow. A persistent notification is shown while tracking is active. Location is saved on the device first and shared with the vehicle owner within the same organization when cloud sync is configured.</p>
+
+  <h2>How information is used</h2>
+  <p>We use the information only to provide Gadi Khata features: maintaining vehicle and driver records, calculating trips and distances, generating daily/weekly/monthly/yearly reports, showing owner notifications, and syncing queued records when network and cloud credentials are available. We do not use your data for advertising, profiling, or sale to third parties.</p>
+
+  <h2>Sharing and processors</h2>
+  <p>Records may be shared with the owner and authorized users of the same organization. When cloud features are configured, Firebase Authentication and Cloud Firestore (Google Cloud) act as processors for sign-in, data storage, synchronization, and push notifications. Google Play may collect standard store and installation information under its own policies. We do not sell personal data.</p>
+
+  <h2>Offline-first storage</h2>
+  <p>The app stores records in a local SQLite database on your device. When offline, new records remain queued and sync later. When cloud credentials are absent, the app clearly indicates local-only mode and records stay on the device. Backup and restore files are shared only through the sharing action you choose.</p>
+
+  <h2>Security</h2>
+  <p>Cloud communication uses TLS encryption in transit and Firestore security rules restrict access to organization data. Local data is protected by the operating system's app sandbox. No system is perfectly secure, so please protect your device and account password.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Location / background location / foreground service:</strong> duty route recording and automatic daily/hourly summaries.</li>
+    <li><strong>Notifications:</strong> tracking status, approvals, settlements, and sync events.</li>
+    <li><strong>Camera:</strong> receipt and odometer photos you choose to attach.</li>
+    <li><strong>Network:</strong> offline sync and cloud features.</li>
+    <li><strong>Wake lock / boot receiver:</strong> resume supported tracking status after device restarts.</li>
+  </ul>
+
+  <h2>Your choices and account deletion</h2>
+  <p>You can grant or deny permissions in Android settings and change tracking/notification behavior in the app. To request deletion of a cloud account and its associated records, use the <a href="https://sofixsprojects.github.io/gadi-khata-privacy/account-deletion.html">Gadi Khata account deletion page</a> or email <a href="mailto:sofixscompany@gmail.com">sofixscompany@gmail.com</a> with the subject “Gadi Khata account deletion request”.</p>
+
+  <h2>Children</h2>
+  <p>Gadi Khata is a business utility for vehicle owners and drivers and is not directed to children under 13.</p>
+
+  <h2>Changes</h2>
+  <p>We may update this policy when the app changes. The updated policy will be posted here with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Sofixs Private Limited &middot; <a href="mailto:sofixscompany@gmail.com">sofixscompany@gmail.com</a></p>
+
+  <footer>© 2026 Sofixs Private Limited. All rights reserved.</footer>
+</body>
+</html>
